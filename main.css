@@ -1,0 +1,49 @@
+body {
+  background-color: #444;
+  color: white;
+  font-family: sans-serif;
+  margin: 1rem;
+}
+
+.notice {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #f44;
+}
+
+.notice p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.codeblock {
+  display: inline-block;
+  background-color: #222;
+  padding: 1rem;
+  color: lime;
+}
+
+.codeblock code {
+  display: block;
+}
+
+a:any-link {
+  color: dodgerblue;
+}
+
+.rules .yes {
+  color: lime;
+}
+
+.rules .no {
+  color: red;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 4rem;
+}
+
+#copyright {
+  color: grey;
+}
